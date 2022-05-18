@@ -1,19 +1,3 @@
-
-console.log('inside public javascript file')
-
-// fetch('http://localhost:3000/weather?address=Boston').then((response)=>{
-//     response.json().then((resultData)=>{
-//         if(resultData.error){
-//             console.log(resultData.error)
-//         }
-//         else{
-//             console.log(resultData)
-//             console.log(resultData.address)
-//             console.log(resultData.forecast)
-//         }
-//     })
-// })
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
