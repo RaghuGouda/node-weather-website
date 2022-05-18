@@ -15,7 +15,7 @@ const forecast = (latitude,logitude,callback)=>{
             
         } else {
             console.log(`${body.current.weather_descriptions[0]} : it is currently ${body.current.temperature} degress out, it feels like ${body.current.feelslike} degress out`)
-            callback(undefined,`${body.current.weather_descriptions[0]} : it is currently ${body.current.temperature} degress out, it feels like ${body.current.feelslike} degress out`)
+            callback(undefined,`${body.current.weather_descriptions[0]} : it is currently ${body.current.temperature} degress out, it feels like ${body.current.feelslike} degress out,  with humidity of ${body.current.humidity} degrees`)
     
         }
     })
